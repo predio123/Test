@@ -64,16 +64,18 @@ body {
 }
 
 .middle {
-    color: #000;
+   
     font-size: 40px;
     padding: 15px;
     font-family: "Arial", Helvetica, sans-serif;
-    background-color: #ffcc00;
+    
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    background-image: url("../img/beer-bubbles.jpg");
+    color: #840903;
 
 }
 
@@ -256,7 +258,6 @@ body {
 
 .rafa {
     position: absolute;
-    color: #840903;
     font-weight: 1000;
     font-family: "Arial", Helvetica, sans-serif;
     bottom: 0px;
@@ -267,7 +268,8 @@ body {
     margin: 10px 0px;
     border-radius: 15px;
     border: 3px solid #fff;
-    background-image: url("../img/beer-bubbles.jpg");
+     background-color: #ffcc00;
+    color: #000;
 }
 .rafa:active {
  color:red;
