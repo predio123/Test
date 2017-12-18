@@ -6,6 +6,45 @@ body {
     position: relative;
 }
 
+#start {
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#logo {
+    position: absolute;
+    width: 270px;
+    height: 225px;
+    top:0px;
+    border-radius: 50px;
+    border: 1px solid #840903;
+}
+
+.deam {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 300px;
+    z-index: 1001;
+    top:340px;
+    text-align: center;
+}
+
+#letter {
+    color: black;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Arial", Helvetica, sans-serif;
+    text-align: center;
+}
+
 body {
     overflow: hidden;
     background-color: #0F0F0F;
@@ -64,11 +103,11 @@ body {
 }
 
 .middle {
-   
+
     font-size: 40px;
     padding: 15px;
     font-family: "Arial", Helvetica, sans-serif;
-    
+
     text-align: center;
     position: fixed;
     top: 0;
@@ -268,9 +307,11 @@ body {
     margin: 10px 0px;
     border-radius: 15px;
     border: 3px solid #fff;
-     background-color: #ffcc00;
+    background-color: #ffcc00;
     color: #000;
 }
+
 .rafa:active {
- color:red;
-    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);}
+    color: red;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+}

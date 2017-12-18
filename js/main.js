@@ -41,3 +41,5 @@ $(function () {
 function changeview() {
     $('#card').flip('toggle');
 }
+
+$("#start").delay(3000).fadeOut(1000);
