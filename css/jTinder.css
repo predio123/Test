@@ -224,7 +224,7 @@ body {
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
     -webkit-transform-style: preserve-3d;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #tinderslide .icon {
@@ -311,11 +311,11 @@ body {
 }
 
 #tinderslide .pane6 .flag {
-    background: url("../img/flags/Alemanha.png") no-repeat scroll center center;
+    background:  url("../img/flags/Alemanha.png") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane6 .icon {
-    background: url("../img/Icons/png/004-beer.png") no-repeat scroll center center;
+    background: LightGreen  url("../img/Icons/png/004-beer.png") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane5 .img {
@@ -328,7 +328,7 @@ body {
     background-size: cover;
 }
 #tinderslide .pane5 .icon {
-    background: url("../img/Icons/png/002-empty-beer-bottle.png") no-repeat scroll center center;
+    background:Moccasin  url("../img/Icons/png/002-empty-beer-bottle.png") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane4 .img {
@@ -340,7 +340,7 @@ body {
     background-size: cover;
 }
 #tinderslide .pane4 .icon {
-    background: url("../img/Icons/png/003-glass.png") no-repeat scroll center center;
+    background:PaleTurquoise  url("../img/Icons/png/003-glass.png") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane3 .img {
@@ -352,7 +352,7 @@ body {
     background-size: cover;
 }
 #tinderslide .pane3 .icon {
-    background: url("../img/Icons/png/002-empty-beer-bottle.png") no-repeat scroll center center;
+    background: Moccasin  url("../img/Icons/png/002-empty-beer-bottle.png") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane2 .img {
@@ -365,7 +365,7 @@ body {
     background-size: cover;
 }
 #tinderslide .pane2 .icon {
-    background: url("../img/Icons/png/001-beer-can.png") no-repeat scroll center center;
+    background:MistyRose  url("../img/Icons/png/001-beer-can.png") no-repeat scroll center center;
     background-size: cover;
 }
 #tinderslide .pane1 .img {
@@ -377,7 +377,7 @@ body {
     background-size: cover;
 }
 #tinderslide .pane1 .icon {
-    background: url("../img/Icons/png/003-glass.png") no-repeat scroll center center;
+    background: PaleTurquoise  url("../img/Icons/png/003-glass.png") no-repeat scroll center center;
     background-size: cover;
 }
 /* jTinder status text */
