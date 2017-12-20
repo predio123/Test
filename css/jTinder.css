@@ -23,9 +23,11 @@ body {
 
 #logo {
     position: absolute;
-    width: 270px;
+    width: 80%;
     height: 225px;
-    top: 0px;
+    top: 10%;
+    left:  10%;
+    margin-right: -10%;
     border-radius: 50px;
     border: 1px solid #840903;
 }
@@ -33,9 +35,7 @@ body {
 .deam {
     position: absolute;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     height: 230px;
     z-index: 1001;
     top: 300px;
