@@ -55,6 +55,7 @@ $(function () {
 });
 
 function changeview(place) {
+    event.preventDefault();
         $('.like').hide();
     $('.dislike').hide();
     $('#'+place).flip('toggle');
