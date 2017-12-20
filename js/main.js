@@ -33,13 +33,34 @@ $('#trynew').click(function () {
 });
 
 $(function () {
-    jQuery("#card").flip({
+    jQuery("#pa6").flip({
         trigger: 'manual'
     });
+    jQuery("#pa5").flip({
+        trigger: 'manual'
+    });
+    jQuery("#pa4").flip({
+        trigger: 'manual'
+    });
+    jQuery("#pa3").flip({
+        trigger: 'manual'
+    });
+    jQuery("#pa2").flip({
+        trigger: 'manual'
+    });
+    jQuery("#pa1").flip({
+        trigger: 'manual'
+    });
+    console.log('ready');
 });
 
-function changeview() {
-    $('#card').flip('toggle');
+function changeview(place) {
+        $('.like').hide();
+    $('.dislike').hide();
+    $('#'+place).flip('toggle');
+            $('.like').show();
+    $('.dislike').show();
+
 }
 
 $("#start").delay(3000).fadeOut(1000);
